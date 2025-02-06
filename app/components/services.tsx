@@ -9,38 +9,38 @@ import Image from "next/image";
 
 const services = [
     {
-        title: "STEM Laboratories Setup",
+        title: "Visual Insights for Better Monitoring",
         description:
-            "Initial setup of immersive lab environments with dedicated sections for various STEM specializations. Customized curriculum to engage and involve students in skill development.",
+            "Get visual graphs and trends to quickly analyze patient health, reducing the need to review every report manually.",
         icon: Lab,
     },
     {
-        title: "Certified STEM Trainers",
-        description: "Trained and dedicated educators to teach students with care.",
+        title: "Sync Data When Online",
+        description: " All records automatically sync to the cloud when internet connectivity is available, keeping data up-to-date.",
         icon: Trainer,
     },
     {
-        title: "Consumables and Parts",
+        title: "Manage Patient Records Offline",
         description:
-            "Provision and replacement of consumables and damaged parts during the training process.",
+            "Our app allows doctors to securely manage patient records even without internet access, ensuring seamless workflow.",
         icon: Parcel,
     },
     {
-        title: "STEM Expos",
+        title: "Multiple Languages",
         description:
-            "Regular expos to encourage students to showcase their creative ideas and projects.",
+            "We offer our services in multiple languages to ensure clear communication and a seamless experience. You can choose from Hindi, English, Odia, and Telugu...",
         icon: Expo,
     },
     {
-        title: "Ecosystem Support",
+        title: "Designed for Low-Connectivity Areas",
         description:
-            "Facilitating participation in national and international challenges. Connecting students with domain experts for guidance and support.",
+            "Optimized for rural healthcare settings where internet access is limited, ensuring reliable performance even in remote locations.",
         icon: Ecosystem,
     },
     {
-        title: "Operational Ownership",
+        title: "Time-Saving Data Management",
         description:
-            "Complete operational ownership and accountability for lab setup, management, maintenance, and upgrades.",
+            "Simplifies patient record-keeping with an intuitive interface, reducing paperwork and allowing doctors to focus on patient care.",
         icon: Owner,
     },
 ];

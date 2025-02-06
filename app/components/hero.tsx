@@ -1,7 +1,7 @@
 'use client';
 import React from 'react'
 import drone from '@/app/assets/drone.png'
-import Rocket from '@/app/assets/rock3.png';
+// import Rocket from '@/app/assets/rock3.png';
 import { motion } from "framer-motion";
 import Link from 'next/link';
 import Arrow from '@/app/assets/arrow-right.svg';
@@ -22,14 +22,14 @@ const Hero = () => {
       <div className="relative items-center w-full pt-40  lg:pt-52 lg:py-20">
         <div className="text-center max-md:px-3">
           <span className="text-sm  font-medium tracking-tight tag  px-4 py-2 rounded-full">
-            Introducing Nodetronics
+            Introducing Srusta
           </span>
           <h1 className="section-title my-4 max-w-[450px] mx-auto">
-            STEM Made{" "}
+            SRUSTA Made{" "}
             super easy!
           </h1>
-          <p className='section-description max-w-[600px] mx-auto'>
-            We take the hassle out of STEM education, helping schools bring exciting, hands-on learning experiences to students with ease.
+          <p className='section-description max-w-[750px] mx-auto'>
+          We streamline rural healthcare management, providing doctors with seamless, accessing patient record tracking and cload synchronization for efficient and effective care delivery.
           </p>
         </div>
         <div className="flex gap-2 mt-10 justify-center">
@@ -39,7 +39,7 @@ const Hero = () => {
             className="btn btn-primary" aria-label="Get started with STEM labs now"
             target='_blank'
           >
-            Book a free trail
+            Get Started
           </Link>
           <Link href={"/"}
             className="btn btn-text flex gap-2 items-center"
@@ -106,15 +106,15 @@ const Hero = () => {
         </div>
       </div>
       <div className='absolute left-0 bottom-0 w-[20%] flex justify-end'>
-        <img
+        {/* <img
           src={Rocket.src}
           alt="Rocket"
           className="w-24 h-24 max-lg:hidden rocket-animation"
-        />
+        /> */}
 
       </div>
       <div className="absolute top-40 w-[20%] right-0 flex">
-        <motion.img
+        {/* <motion.img
           src={drone.src}
           alt="Drone"
           className='w-20 h-16 max-lg:hidden'
@@ -126,7 +126,7 @@ const Hero = () => {
             repeat: Infinity,
             repeatType: "mirror",
           }}
-        />
+        /> */}
       </div>
     </section>
   )

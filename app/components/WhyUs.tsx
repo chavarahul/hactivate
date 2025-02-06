@@ -11,22 +11,22 @@ const WhyUs = () => {
                             Why Choose Us
                         </span>
                         <h2 className="md:text-4xl text-2xl font-bold my-6 bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text">
-                            Redefining STEM Education
+                        Revolutionizing Rural Healthcare
                         </h2>
                         <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                            At Nodetronics Technology, we empower students and schools to thrive in a tech-driven future through hands-on STEM learning and expert support.                        </p>
+                        We empower doctors with seamless, cloud-based patient record management, ensuring efficient and effective healthcare delivery in remote areas.                        </p>
                         <ul className="list-disc list-inside space-y-4 text-gray-600">
                             <li>
-                                <span className="font-bold text-black">Monetization Opportunities:</span> Schools can generate revenue through yearly fees and additional services.
+                                <span className="font-bold text-black">Real-Time Data Access:</span> Secure cloud storage allows doctors to update and retrieve patient records anytime, anywhere.
                             </li>
                             <li>
-                                <span className="font-bold text-black">Future-Ready Topics:</span> Courses designed around cutting-edge fields like Robotics, IoT, AI, and Space Exploration.
+                                <span className="font-bold text-black">Smart Analytics:</span> Visual insights like graphs and trends enable better decision-making and patient tracking.
                             </li>
                             <li>
-                                <span className="font-bold text-black">Long-Term Partnerships:</span> Collaborations built on trust, ensuring consistent support and growth.
+                                <span className="font-bold text-black">Seamless Collaboration:</span>Multiple healthcare professionals can access and update records, ensuring coordinated patient care.
                             </li>
                             <li>
-                                <span className="font-bold text-black">Consultancy Services:</span> Expertise in product development and optimization to maximize learning outcomes.
+                                <span className="font-bold text-black">Scalable & Reliable</span> Designed for healthcare professionals in low-connectivity areas, ensuring uninterrupted service.
                             </li>
                         </ul>
                     </div>

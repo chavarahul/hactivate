@@ -10,7 +10,7 @@ const CallToAction = () => {
             <div className="px-5">
                 <div className="max-w-[600px] text-center mx-auto relative">
                     <h2 id="cta-heading" className="md:text-4xl text-2xl font-bold my-6 bg-gradient-to-b from-black to-[#001E80] text-transparent bg-clip-text">
-                        Empower the Future of STEM Education
+                    Better Care, Anywhere
                         {/* <Image
                             src={Robo}
                             alt='Image'
@@ -19,7 +19,7 @@ const CallToAction = () => {
                     </h2>
 
                     <p className="section-description mt-5">
-                        Discover innovative STEM labs, hands-on training kits, and expert guidance to inspire the next generation of creators and problem-solvers.
+                    Discover a seamless solution for managing patient records in remote areas. Our website enables doctors to update, access, and sync data effortlessly, even with limited connectivity. With visual insights like graphs and trends, it enhances patient monitoring and decision-making, ensuring better healthcare delivery for underserved communities.
                     </p>
                 </div>
 
@@ -30,7 +30,7 @@ const CallToAction = () => {
                         className="btn btn-primary" aria-label="Get started with STEM labs now"
                         target='_blank'
                     >
-                        Book a free trail
+                        Get Started
                     </Link>
                     <Link href={"/"}
                         className="btn btn-text flex gap-2 items-center"

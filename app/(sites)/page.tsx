@@ -15,11 +15,11 @@ const Home = () => {
       <main className='md:w-3/4 max-md:mx-3 mx-auto border-l border-r'>
         <Header />
         <Hero />
-        <Display />
+        {/* <Display /> */}
         <About />
         <Services/>
         <WhyUs />
-        <Blogs/>
+        {/* <Blogs/> */}
         <CallToAction />
         <Footer />
       </main>

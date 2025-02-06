@@ -13,21 +13,21 @@ const About = () => {
             </div>
             <div className='mx-auto max-w-[950px] md:text-2xl text-lg'>
                 <p className='md:leading-[50px] leading-10 text-[#010D3E] md:indent-32 indent-20 max-lg:px-6'>
-                    At Nodetronics Technology, we are inspiring the next generation of innovators with hands-on
-                    <Image
+                Our Website helps traveling doctors efficiently manage patient records in rural areas. It  allows doctors to update and access records 
+                    {/* <Image
                         src={Stem}
                         alt='image'
                         className='inline w-20 h-9 mx-2 md:-mt-4'
-                    />
-                    education. We’re rethinking how students,
+                    /> */}
+                    , and syncs data to the cloud .The system provides visual insights like graphs and trends for quick patient monitoring, saving time and improving decision-making. Designed for areas with limited connectivity, 
                     <span className='text-black/60'>
-                        {" "}from grades 6 to 10, engage with science and technology through immersive experiences. By focusing on exciting fields like Robotics, AI, Drones, IoT, 3D Printing, and Space Exploration
-                        <Image
+                        {" "}the Website simplifies record management and improves healthcare delivery.
+                        {/* <Image
                             src={Rocket}
                             alt='image'
                             className='inline w-9 h-9 mx-1 -mt-2 md:mt-0'
-                        />
-                        , we make STEM education simple, engaging, and accessible—bringing the future into the classroom...
+                        /> */}
+                        By focusing on usability and efficiency, it addresses the challenges of rural healthcare and ensures better outcomes for underserved communities.
                     </span>
                 </p>
             </div>
@@ -36,3 +36,5 @@ const About = () => {
 }
 
 export default About
+
+

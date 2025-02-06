@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row justify-between px-5 md:items-start">
         <div className="md:w-1/2">
           <div className="inline-flex relative ">
-            <h2 className='text-white font-bold text-3xl'>Nodetronics</h2>
+            <h2 className='text-white font-bold text-3xl'>SRUSTA</h2>
           </div>
           <nav className="flex flex-col md:flex-row gap-4 mt-6">
             <Link href="/" className="hover:text-white">Home</Link>
